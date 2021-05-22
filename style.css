@@ -1,0 +1,12 @@
+body{
+background: red;
+}
+#output
+{
+background: rgb(0, 255, 200);
+border-radius: 10px;
+border-top: 10px solid maroon;
+padding: 10px;
+float: none;
+text-align: left;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Maths Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    
+    <style>
+    body{
+    
+        text-align: left;
+        background-image:url("login_img.jpg");
+        margin-left: 50px;
+        background-repeat: none;
+        }
+        .div{
+        background-color: tomato;
+        }
+         #h3{
+        text-decoration: white;
+        }
+        .label{
+        text-decoration: white;
+        }
+        
+        button{
+        text-align: left;
+        margin-left: 50px;
+        }
+        </style>
+</head>
+<body>
+    <h1></h1>
+    <div class="col-lg-4 col-md-4 col-sm-8 col-xs-11 div1">
+        <h3 >Player 1 Login for the Quiz</h3>
+         <label >User Name:</label>
+          <input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name"> 
+        <br>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-8 col-xs-11 div2">
+        <h3 >Player 2 Login for the Quiz</h3>
+         <label >User Name:</label>
+          <input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name"> 
+        <br>
+    </div>
+    <button style="width: 30%" class="btn btn-danger" id="login_button" onclick="adduser()">Login</button>
+</body>
+<script src='main.js'></script>
+</html>
